@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    max-width: 1280px;
+    margin: 0rem auto;
+    padding: 2rem 96px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1024px) {
+    .app {
+        padding: 5rem 3rem 1rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .app {
+        padding: 5rem 1.5rem 1rem 1.5rem;
+    }
+}

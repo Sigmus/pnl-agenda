@@ -1,0 +1,37 @@
+<template>
+    <c-pnl-ui-agenda-week-navigator
+        items={items}
+        hide-previous={hidePrevious}
+        hide-next={hideNext}
+    ></c-pnl-ui-agenda-week-navigator>
+
+    <c-pnl-ui-agenda-days-header
+        items={items}
+        item-width={itemWidth}
+    ></c-pnl-ui-agenda-days-header>
+
+    <div class="wrapper" style={wrapperStyle}>
+        <div class="hours">
+            <template for:each={hours} for:item="hour">
+                <div key={hour.text}><span>{hour.text}</span></div>
+            </template>
+        </div>
+
+        <template for:each={positionedItems} for:item="item">
+            <div class="day" key={item.index}>
+                <div class="blocks">
+                    <template for:each={hours} for:item="hour">
+                        <div key={hour.text} style={hour.style}></div>
+                    </template>
+                </div>
+
+                <template for:each={item.items} for:item="item">
+                    <c-pnl-ui-agenda-item
+                        item={item}
+                        key={item.id}
+                    ></c-pnl-ui-agenda-item>
+                </template>
+            </div>
+        </template>
+    </div>
+</template>

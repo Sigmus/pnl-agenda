@@ -1,0 +1,72 @@
+[
+    {
+        "date": "2020-12-14",
+        "items": [
+            {
+                "id": "e76994a2-7993-46e9-a0bc-6d065e46bf5d",
+                "hour": 9,
+                "minute": 45,
+                "duration": 120,
+                "text": "a"
+            },
+            {
+                "id": "841a6f65-b471-470e-8220-083baebabacd",
+                "hour": 9,
+                "minute": 45,
+                "duration": 150,
+                "text": "b",
+                "recurring": true
+            }
+        ]
+    },
+    {
+        "date": "2020-12-15",
+        "items": []
+    },
+    {
+        "date": "2020-12-16",
+        "items": [
+            {
+                "id": "b4f165eb-327e-4204-95fa-f5ab81d4ca45",
+                "hour": 8,
+                "minute": 45,
+                "duration": 135,
+                "text": "c",
+                "recurring": true
+            }
+        ]
+    },
+    {
+        "date": "2020-12-17",
+        "items": []
+    },
+    {
+        "date": "2020-12-18",
+        "items": [
+            {
+                "id": "e59e5b12-40c4-42e7-9161-f0c37a2d338b",
+                "hour": 10,
+                "minute": 45,
+                "duration": 90,
+                "text": "d",
+                "recurring": true,
+                "color": "#009537"
+            },
+            {
+                "id": "9f0d0142-19fb-4a0d-ac06-a294d76cc90b",
+                "hour": 11,
+                "minute": 30,
+                "duration": 30,
+                "text": "e"
+            }
+        ]
+    },
+    {
+        "date": "2020-12-19",
+        "items": []
+    },
+    {
+        "date": "2020-12-20",
+        "items": []
+    }
+]

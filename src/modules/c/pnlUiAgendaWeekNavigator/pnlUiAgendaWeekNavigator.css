@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.navigator {
+    display: flex;
+    margin: 0 0 1.5rem 0;
+    padding: 0 0 0 1.5rem;
+    height: 24px;
+}
+
+.navigator div {
+    margin: 0 1rem;
+    position: relative;
+    top: -1px;
+}

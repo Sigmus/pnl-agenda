@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fef0e3;
+    position: absolute;
+    border-left: 3px solid var(--color-standard-orange);
+    font-weight: 300;
+    padding: 0 0.5rem;
+}
+
+.item span {
+    /* margin-top: -0.35rem;
+    margin-left: -2rem; */
+}
+
+.item img {
+    /* position: absolute; */
+    /* top: 0.125rem;
+    right: 0.125rem; */
+    cursor: pointer;
+    /* border:1px solid red; */
+}
+
+.small {
+    font-size: 14px;
+}
+
+.small span {
+    /* margin-left: -0.75rem; */
+    /* margin-left: 0.25rem; */
+}

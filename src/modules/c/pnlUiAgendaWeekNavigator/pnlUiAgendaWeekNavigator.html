@@ -1,0 +1,19 @@
+<template>
+    <div class="navigator">
+        <template if:false={hidePrevious}>
+            <img
+                onclick={goPrevious}
+                src="resources/images/agenda/chevron-left.svg"
+            />
+        </template>
+
+        <div>{text}</div>
+
+        <template if:false={hideNext}>
+            <img
+                onclick={goNext}
+                src="resources/images/agenda/chevron-right.svg"
+            />
+        </template>
+    </div>
+</template>

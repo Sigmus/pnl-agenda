@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+:host {
+    min-width: 640px;
+}
+
+.wrapper {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: auto;
+    align-items: self-end;
+}
+
+.hours div {
+    font-size: 14px;
+    color: #64728c;
+    font-weight: 300;
+    position: relative;
+    height: 40px;
+    width: 2.5rem;
+}
+
+.hours span {
+    position: absolute;
+    left: 0;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10px;
+}
+
+.day + .day {
+    border-left: 1px solid var(--color-light-gray-cloudy);
+}
+
+.blocks div {
+    height: 40px;
+    background-color: var(--color-standard-white);
+}
+
+.blocks div:nth-child(odd) {
+    background-color: var(--color-light-gray-tone);
+}

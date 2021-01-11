@@ -1,0 +1,9 @@
+<template>
+    <ul class="week-days">
+        <template for:each={days} for:item="item">
+            <li key={item.text} class={item.cssClass} style={item.style}>
+                {item.text}
+            </li>
+        </template>
+    </ul>
+</template>

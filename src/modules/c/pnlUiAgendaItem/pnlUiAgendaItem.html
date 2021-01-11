@@ -1,0 +1,8 @@
+<template>
+    <div onclick={itemClick} class={cssClass} style={item.style}>
+        <span>{item.text}</span>
+        <template if:true={item.recurring}>
+            <img src="resources/images/agenda/edit.svg" />
+        </template>
+    </div>
+</template>

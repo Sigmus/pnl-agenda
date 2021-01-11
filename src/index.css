@@ -1,0 +1,144 @@
+@font-face {
+    font-family: PostNL;
+    src: url(./resources/fonts/postnlweb-bold-webfont.eot);
+    src: url(./resources/fonts/postnlweb-bold-webfont.eot?#iefix)
+            format('embedded-opentype'),
+        url(./resources/fonts/postnlweb-bold-webfont.woff2) format('woff2'),
+        url(./resources/fonts/postnlweb-bold-webfont.woff) format('woff'),
+        url(./resources/fonts/postnlweb-bold-webfont.ttf) format('truetype'),
+        url(./resources/fonts/postnlweb-bold-webfont.svg#postnlwebbold)
+            format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: PostNL;
+    src: url(./resources/fonts/postnlweb-bolditalic-webfont.eot);
+    src: url(./resources/fonts/postnlweb-bolditalic-webfont.eot?#iefix)
+            format('embedded-opentype'),
+        url(./resources/fonts/postnlweb-bolditalic-webfont.woff2)
+            format('woff2'),
+        url(./resources/fonts/postnlweb-bolditalic-webfont.woff) format('woff'),
+        url(./resources/fonts/postnlweb-bolditalic-webfont.ttf)
+            format('truetype'),
+        url(./resources/fonts/postnlweb-bolditalic-webfont.svg#postnlwebbold_italic)
+            format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: PostNL;
+    src: url(./resources/fonts/postnlweb-italic-webfont.eot);
+    src: url(./resources/fonts/postnlweb-italic-webfont.eot?#iefix)
+            format('embedded-opentype'),
+        url(./resources/fonts/postnlweb-italic-webfont.woff2) format('woff2'),
+        url(./resources/fonts/postnlweb-italic-webfont.woff) format('woff'),
+        url(./resources/fonts/postnlweb-italic-webfont.ttf) format('truetype'),
+        url(./resources/fonts/postnlweb-italic-webfont.svg#postnlwebitalic)
+            format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: PostNL;
+    src: url(./resources/fonts/postnlweb-light-webfont.eot);
+    src: url(./resources/fonts/postnlweb-light-webfont.eot?#iefix)
+            format('embedded-opentype'),
+        url(./resources/fonts/postnlweb-light-webfont.woff2) format('woff2'),
+        url(./resources/fonts/postnlweb-light-webfont.woff) format('woff'),
+        url(./resources/fonts/postnlweb-light-webfont.ttf) format('truetype'),
+        url(./resources/fonts/postnlweb-light-webfont.svg#postnlweblight)
+            format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: PostNL;
+    src: url(./resources/fonts/postnlweb-lightitalic-webfont.eot);
+    src: url(./resources/fonts/postnlweb-lightitalic-webfont.eot?#iefix)
+            format('embedded-opentype'),
+        url(./resources/fonts/postnlweb-lightitalic-webfont.woff2)
+            format('woff2'),
+        url(./resources/fonts/postnlweb-lightitalic-webfont.woff) format('woff'),
+        url(./resources/fonts/postnlweb-lightitalic-webfont.ttf)
+            format('truetype'),
+        url(./resources/fonts/postnlweb-lightitalic-webfont.svg#postnlweblight_italic)
+            format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: PostNL;
+    src: url(./resources/fonts/postnlweb-mediumitalic-webfont.eot);
+    src: url(./resources/fonts/postnlweb-mediumitalic-webfont.eot?#iefix)
+            format('embedded-opentype'),
+        url(./resources/fonts/postnlweb-mediumitalic-webfont.woff2)
+            format('woff2'),
+        url(./resources/fonts/postnlweb-mediumitalic-webfont.woff)
+            format('woff'),
+        url(./resources/fonts/postnlweb-mediumitalic-webfont.ttf)
+            format('truetype'),
+        url(./resources/fonts/postnlweb-mediumitalic-webfont.svg#postnlwebmedium_italic)
+            format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: PostNL;
+    src: url(./resources/fonts/postnlweb-regular-webfont.eot);
+    src: url(./resources/fonts/postnlweb-regular-webfont.eot?#iefix)
+            format('embedded-opentype'),
+        url(./resources/fonts/postnlweb-regular-webfont.woff2) format('woff2'),
+        url(./resources/fonts/postnlweb-regular-webfont.woff) format('woff'),
+        url(./resources/fonts/postnlweb-regular-webfont.ttf) format('truetype'),
+        url(./resources/fonts/postnlweb-regular-webfont.svg#postnlwebregular)
+            format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: postnlweb_poster;
+    src: url(./resources/fonts/postnlweb-poster-webfont.eot);
+    src: url(./resources/fonts/postnlweb-poster-webfont.eot?#iefix)
+            format('embedded-opentype'),
+        url(./resources/fonts/postnlweb-poster-webfont.woff2) format('woff2'),
+        url(./resources/fonts/postnlweb-poster-webfont.woff) format('woff'),
+        url(./resources/fonts/postnlweb-poster-webfont.ttf) format('truetype'),
+        url(./resources/fonts/postnlweb-poster-webfont.svg#postnlweb_posterregular)
+            format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Check https://zpl.io/Vk7xqMW for standard colors */
+:root {
+    --color-standard-white: #ffffff;
+    --color-standard-text: #27324c;
+    --color-standard-orange: #ed8c00;
+    --color-standard-blue: #3440b6;
+    --color-light-gray-cloudy: #d4d9e3;
+    --color-light-gray-tone: #f3f4f7;
+    --color-medium-gray: #66728a;
+    --color-titanium-gray: #8a95af;
+    --color-steal-gray: #adb5c5;
+}
+
+body {
+    font-family: PostNL;
+    font-size: 16px;
+    color: var(--color-standard-text);
+    margin: 0;
+    padding: 0;
+}
+
+.test {
+    border: 1px solid black;
+    padding: 1rem;
+}

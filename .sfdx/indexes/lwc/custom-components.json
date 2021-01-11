@@ -1,0 +1,814 @@
+[
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/app/app.js",
+        "metadata": {
+            "decorators": [],
+            "declarationLoc": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 127, "column": 1 }
+            },
+            "classMembers": [
+                {
+                    "type": "property",
+                    "name": "currentProgress",
+                    "loc": {
+                        "start": { "line": 4, "column": 4 },
+                        "end": { "line": 4, "column": 24 }
+                    }
+                },
+                {
+                    "type": "property",
+                    "name": "totalProgress",
+                    "loc": {
+                        "start": { "line": 5, "column": 4 },
+                        "end": { "line": 5, "column": 22 }
+                    }
+                },
+                {
+                    "type": "method",
+                    "name": "connectedCallback",
+                    "loc": {
+                        "start": { "line": 7, "column": 4 },
+                        "end": { "line": 7, "column": 26 }
+                    }
+                },
+                {
+                    "type": "property",
+                    "name": "agendaItems",
+                    "loc": {
+                        "start": { "line": 9, "column": 4 },
+                        "end": { "line": 122, "column": 5 }
+                    }
+                },
+                {
+                    "type": "property",
+                    "name": "expandedAccordionItems",
+                    "loc": {
+                        "start": { "line": 124, "column": 4 },
+                        "end": { "line": 126, "column": 5 }
+                    }
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-25T16:10:22.588Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiButton/pnlUiButton.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "contrast",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "variant",
+                            "value": { "type": "string", "value": "primary" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "type",
+                            "value": { "type": "string", "value": "button" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "loading",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "image",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "href",
+                            "value": { "type": "unresolved" }
+                        }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.185Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiLoadingSpinner/pnlUiLoadingSpinner.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "loading",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "colorName",
+                            "value": { "type": "string" }
+                        }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.213Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiMiniProgressIndicator/pnlUiMiniProgressIndicator.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "initial",
+                            "value": { "type": "number", "value": 0 }
+                        },
+                        {
+                            "type": "property",
+                            "name": "total",
+                            "value": { "type": "unresolved" }
+                        },
+                        { "type": "method", "name": "next" },
+                        { "type": "method", "name": "previous" },
+                        { "type": "method", "name": "goto" }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.214Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/testA/testA.js",
+        "metadata": {
+            "decorators": [],
+            "declarationLoc": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 3, "column": 54 }
+            },
+            "classMembers": [],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-10-13T12:52:05.960Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/testB/testB.js",
+        "metadata": {
+            "decorators": [],
+            "declarationLoc": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 3, "column": 54 }
+            },
+            "classMembers": [],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-10-13T12:52:05.961Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiAccordion/pnlUiAccordion.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "allowMultipleSectionsOpen",
+                            "value": { "type": "unresolved" }
+                        }
+                    ]
+                },
+                {
+                    "type": "track",
+                    "targets": [{ "name": "_items", "type": "property" }]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-16T14:22:02.216Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiAccordionItem/pnlUiAccordionItem.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "name",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "enriched",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "expanded",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "title",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "image",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "description",
+                            "value": { "type": "unresolved" }
+                        },
+                        { "type": "method", "name": "collapse" },
+                        { "type": "method", "name": "expand" }
+                    ]
+                },
+                {
+                    "type": "track",
+                    "targets": [{ "name": "_expanded", "type": "property" }]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-24T09:40:26.405Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiAgenda/pnlUiAgenda.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "startHour",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "endHour",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "items",
+                            "value": { "type": "array", "value": [] }
+                        }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-26T16:00:26.584Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiAgendaItem/pnlUiAgendaItem.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "item",
+                            "value": { "type": "unresolved" }
+                        }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-24T09:40:32.591Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiAlert/pnlUiAlert.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "showCloseIcon",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "secondary",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "tertiary",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "autoScroll",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "hideIcon",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "type",
+                            "value": { "type": "string", "value": "error" }
+                        },
+                        { "type": "property", "name": "visible" }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.183Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiElement/pnlUiElement.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "disabled",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "artId",
+                            "value": { "type": "string" }
+                        }
+                    ]
+                }
+            ],
+            "declarationLoc": {
+                "start": { "line": 8, "column": 0 },
+                "end": { "line": 19, "column": 1 }
+            },
+            "classMembers": [
+                {
+                    "type": "property",
+                    "name": "delegatesFocus",
+                    "loc": {
+                        "start": { "line": 9, "column": 4 },
+                        "end": { "line": 9, "column": 33 }
+                    }
+                },
+                {
+                    "type": "property",
+                    "name": "disabled",
+                    "loc": {
+                        "start": { "line": 11, "column": 4 },
+                        "end": { "line": 11, "column": 18 }
+                    },
+                    "decorator": "api",
+                    "value": { "type": "unresolved" }
+                },
+                {
+                    "type": "property",
+                    "name": "artId",
+                    "loc": {
+                        "start": { "line": 12, "column": 4 },
+                        "end": { "line": 12, "column": 20 }
+                    },
+                    "decorator": "api",
+                    "value": { "type": "string" }
+                },
+                {
+                    "type": "method",
+                    "name": "disconnectedCallback",
+                    "loc": {
+                        "start": { "line": 14, "column": 4 },
+                        "end": { "line": 18, "column": 5 }
+                    }
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.186Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiFormElement/pnlUiFormElement.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "disableFormRegistration",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "validateWhenDisabled",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "disabled",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "name",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "artId",
+                            "value": { "type": "string" }
+                        },
+                        { "type": "property", "name": "value" }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.191Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiFormLayout/pnlUiFormLayout.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "marginTop",
+                            "value": { "type": "unresolved" }
+                        }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.199Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiFormSet/pnlUiFormSet.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "label",
+                            "value": { "type": "string" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "required",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "size",
+                            "value": { "type": "string", "value": "medium" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "tooltipPosition",
+                            "value": { "type": "string", "value": "top" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "hasTooltip",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "attentionTooltip",
+                            "value": { "type": "string" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "width",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "smWidth",
+                            "value": { "type": "unresolved" }
+                        }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.201Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiHeader/pnlUiHeader.js",
+        "metadata": {
+            "decorators": [],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.204Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiInputCheckboxGroup/pnlUiInputCheckboxGroup.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "error",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "direction",
+                            "value": { "type": "string", "value": "vertical" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "tabIndex",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "showError",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "hideLabel",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "validateOn",
+                            "value": { "type": "string", "value": "click" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "required",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        { "type": "property", "name": "items" },
+                        { "type": "method", "name": "validate" },
+                        { "type": "method", "name": "setError" }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.205Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiInputSelect/pnlUiInputSelect.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "error",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "includeEmptyOption",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "tabIndex",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "showError",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "placeholder",
+                            "value": { "type": "string" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "helperText",
+                            "value": { "type": "string" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "validateOn",
+                            "value": { "type": "string", "value": "change" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "required",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        { "type": "property", "name": "items" },
+                        { "type": "method", "name": "validate" },
+                        { "type": "method", "name": "setError" },
+                        { "type": "method", "name": "focus" }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.210Z"
+    },
+    {
+        "_allAttributes": null,
+        "_properties": null,
+        "_methods": null,
+        "file": "/Users/fatasmedeiros/projects/lwc-postnl/src/modules/c/pnlUiInputText/pnlUiInputText.js",
+        "metadata": {
+            "decorators": [
+                {
+                    "type": "api",
+                    "targets": [
+                        {
+                            "type": "property",
+                            "name": "containerClass",
+                            "value": {
+                                "type": "string",
+                                "value": "postnl-input_container"
+                            }
+                        },
+                        {
+                            "type": "property",
+                            "name": "label",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "type",
+                            "value": { "type": "string", "value": "text" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "placeholder",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "helperText",
+                            "value": { "type": "string" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "tabIndex",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "additionalData",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "tooltipOutside",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "error",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "showError",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "disableFormSubmit",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "readOnly",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "autocomplete",
+                            "value": { "type": "string", "value": "on" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "required",
+                            "value": { "type": "boolean", "value": false }
+                        },
+                        {
+                            "type": "property",
+                            "name": "minLength",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "maxLength",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "pattern",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "validateOn",
+                            "value": { "type": "string", "value": "keyup" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "minNumber",
+                            "value": { "type": "unresolved" }
+                        },
+                        {
+                            "type": "property",
+                            "name": "maxNumber",
+                            "value": { "type": "unresolved" }
+                        }
+                    ]
+                }
+            ],
+            "exports": [{ "type": "ExportDefaultDeclaration" }]
+        },
+        "updatedAt": "2020-11-13T09:11:51.212Z"
+    }
+]
